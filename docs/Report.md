@@ -5,3 +5,4 @@
 <p>Общее количество тест-кейсов: 38</p>
 <p>Количество оформленных баг-репортов: 14</p>
 <h3>Отчет автотестов Allure при подключении к БД PostgreSQL</h3>
+<p><a href="https://user-images.githubusercontent.com/102982035/214141687-153bca94-6377-4866-ae9a-0c8231188456.jpg"><img src="https://user-images.githubusercontent.com/102982035/214141687-153bca94-6377-4866-ae9a-0c8231188456.jpg" alt="image"></a></p>
