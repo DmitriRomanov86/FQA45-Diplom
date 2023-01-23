@@ -54,7 +54,7 @@
     <li>При подключенной БД PostgreSql:&nbsp;<code>./gradlew clean test -D db.url=jdbc:postgresql://localhost:5432/app</code></li>
 </ul>
 <ol dir="auto" start="2">
-    <li>Сгенерировать отчет Allure, выполнив команду в терминале IDEA:&nbsp;<code>./gradlew allureServe</code></li>
+    <li>Сгенерировать отчет Allure, выполнив команду в терминале IDEA:&nbsp;./gradlew allureServe</li>
 </ol>
 <ul dir="auto">
     <li>Если отчет не открывается автоматически в браузере, то выполнить команду:&nbsp;<code>./gradlew allureReport</code> и открыть отчет вручную (файл index.html) по адресу:&nbsp;<code>.\build\reports\allure-report\allureReport</code></li>
