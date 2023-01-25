@@ -41,9 +41,7 @@
     <li>Для подключения к БД PostgresSql в терминале IDEA ввести команду: <code>java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar ./artifacts/aqa-shop.jar</code></li>
     
 </ul>
-<ul dir="auto">
-    <li>Если отчет не открывается автоматически в браузере, то выполнить команду:&nbsp;<code>./gradlew allureReport</code> и открыть отчет вручную (файл index.html) по адресу:&nbsp;<code>.\build\reports\allure-report\allureReport</code></li>
-</ul>
+
 <ol dir="auto" start="3">
     <li>Проверить успешность запуска SUT по адресу <a href="http://localhost:8080/">http://localhost:8080/</a></li>
 </ol>
@@ -59,6 +57,9 @@
 <ol dir="auto" start="2">
     <li>Сгенерировать отчет Allure, выполнив команду в терминале IDEA:&nbsp;./gradlew allureServe</li>
 </ol>
+<ul dir="auto">
+    <li>Если отчет не открывается автоматически в браузере, то выполнить команду:&nbsp;<code>./gradlew allureReport</code> и открыть отчет вручную (файл index.html) по адресу:&nbsp;<code>.\build\reports\allure-report\allureReport</code></li>
+</ul>
 <ol dir="auto" start="3">
     <li>При необходимости изменить подключение к другой БД, необходимо остановить подключения в терминалах черех Ctrl + C в окне терминала</li>
 </ol>
